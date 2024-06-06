@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className="logo-left">
-        <h className="montserrat-light logotxtleft">CDC</h>
+        <h1 className="montserrat-light logotxtleft">CDC</h1>
         <img
           className="treelogo"
           src="src\assets\cdctree_logo.png"
@@ -15,12 +15,12 @@ const Navbar = () => {
         />
       </div>
       <div className="logo-right">
-        <h className="montserrat-regular logotxtright">
+        <h1 className="montserrat-regular logotxtright">
           Chloe Davis Counselling
-        </h>
-        <h className="patrick-hand-regular logotxtrightsmall">
+        </h1>
+        <h1 className="patrick-hand-regular logotxtrightsmall">
           A Supportive Journey to Change
-        </h>
+        </h1>
       </div>
       <div id="navlinks" className="montserrat-regular">
         <ul className="navitems">
