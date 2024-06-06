@@ -40,9 +40,6 @@
   top: 16px;
   height: 110px;
   min-width: 500px;
-
-  margin: 0px;
-  padding: 0px;
 }
 
 .logotxtleft {
@@ -72,7 +69,6 @@ nav {
 #navlinks {
   display: flex;
   justify-content: flex-end;
-
   width: fit-content;
   margin-left: auto;
   margin-right: 20px;
@@ -85,10 +81,6 @@ nav {
 }
 
 .navitems li {
-  margin: 10px;
-}
-
-.test {
   margin: 10px;
 }
 
