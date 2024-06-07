@@ -30,7 +30,7 @@
 }
 
 .logo-right {
-  /* background-color: cornflowerblue; */
+  background-color: cornflowerblue;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -111,7 +111,7 @@ nav {
   .logo-right {
     height: 65px;
     position: relative;
-    left: -130px;
+    left: -85px;
     top: 5px;
     margin-top: 8px;
 
@@ -147,5 +147,12 @@ nav {
     display: inline-block;
     margin-left: auto;
     margin-right: 20px;
+  }
+}
+
+@media (max-width: 460px) {
+  #hamburger {
+    position: relative;
+    left: -40px;
   }
 }
