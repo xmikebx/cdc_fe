@@ -29,10 +29,8 @@ const Navbar = () => {
           <li>Links</li>
         </ul>
       </div>
-      <div id="hamburger">
-        <div></div>
-        <div></div>
-        <div></div>
+      <div className="hamburger">
+        <a href="#" className="menu-btn"></a>
       </div>
     </nav>
   );
