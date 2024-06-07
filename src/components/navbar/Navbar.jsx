@@ -10,7 +10,7 @@ const Navbar = () => {
         <h1 className="montserrat-light logotxtleft">CDC</h1>
         <img
           className="treelogo"
-          src="src\assets\cdctree_logo.png"
+          src="/cdctree_logo.png"
           alt="chloe davis counselling logo"
         />
       </div>
