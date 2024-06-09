@@ -1,19 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import UseAnimation from "react-useanimations";
-// import menu2 from "react-useanimations/lib/menu2";
-import radioButton from "react-useanimations/lib/menu2";
 
 import "./Navbar.css";
 
 const Navbar = () => {
-  const [checked, setChecked] = useState(false);
-
-  useEffect(() => {
-    console.log(checked);
-    console.log(radioButton);
-  }, [checked]);
-
   return (
     <nav>
       <div className="logo-left">
@@ -38,17 +28,6 @@ const Navbar = () => {
           <li>Contact</li>
           <li>Links</li>
         </ul>
-      </div>
-      <div className="hamburger">
-        <UseAnimation
-          reverse={checked}
-          onClick={() => {
-            setChecked(!checked);
-          }}
-          size={40}
-          wrapperStyle={{ marginTop: "5px", padding: 40 }}
-          animation={radioButton}
-        />
       </div>
     </nav>
   );
